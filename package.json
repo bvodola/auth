@@ -1,11 +1,14 @@
 {
   "name": "project-name",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": ["dist/**/*"],
   "license": "MIT",
   "scripts": {
     "start": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "build" : "tsc",
+    "prepare" : "npm run build"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
