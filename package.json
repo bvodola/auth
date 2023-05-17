@@ -1,6 +1,6 @@
 {
-  "name": "project-name",
-  "version": "1.0.0",
+  "name": "@bvodola/auth",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "files": ["dist/**/*"],
   "license": "MIT",
